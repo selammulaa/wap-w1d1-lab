@@ -1,0 +1,126 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: #0d1a1a;
+    background: #fff;
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 100%;
+    line-height: 150%;
+    text-align: justify;
+    margin: auto;
+    background-color: #d2f0f37e;
+}
+
+.intro{
+    height: 250px;
+    margin: auto;
+
+
+}
+
+header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url(back1.jpg);
+}
+
+header > h1 {
+    text-align: center;
+}
+
+header >  h2{
+    text-align: center;
+}
+
+.summary{
+    padding-right: 20px;
+    text-align: justify;
+    margin: auto;
+    width: 33%;
+}
+
+.preamble{
+    padding-right: 20px;
+    text-align: justify;
+    margin-top: 40px;
+    margin: auto;
+    width: 33%
+}
+
+.supporting{
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px;
+}
+
+.supporting > div{
+    width: 20%;
+    padding: 35px;
+    margin-left: 10px;
+    background-color: #8fc5d14f;
+}
+
+footer{
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+footer > a{
+    padding: 50px;
+    height: 50px;
+    border: #82a3ce9e 2px solid;
+    background-color: #82a3ce9e;
+}
+
+a:hover{
+    border: #a0a5dd8c 2px solid;
+    background-color: #a0a5dd8c;
+}
+
+.wrapper{
+    display: flex;
+    margin: auto;
+    width: 70%;
+    margin-bottom: 50px;
+}
+
+.wrapper > div {
+    width: 31%;
+    margin-right: 20px;
+    background-color: #8fc5d14f;
+}
+
+.design-selection > h3{
+    padding-left: 20px;;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+li > a {
+    text-decoration: none;
+    
+}
+
+a {
+    color: rgb(0, 110, 255);
+}
+
+.design-archives > h3{
+    padding-left: 20px;
+}
+
+.zen-resources > h3{
+    padding-left: 20px;
+}
