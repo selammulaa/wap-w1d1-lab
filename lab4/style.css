@@ -1,0 +1,102 @@
+body{
+    font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    /* border-right: seagreen 1px solid;
+    border-left: seagreen 1px solid;
+    padding-left: 5px; */
+}
+
+
+.title{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.main-title{
+    background-color: #61aa81;
+    height: 40px;
+    padding-top: 23px;
+    padding-left: 20px;
+}
+
+.footer{
+    background-color: #bae0cb;
+    height: 40px;
+    padding-top: 24px;
+    padding-bottom: 20px;
+    margin-top: 20px;  
+     
+}
+
+.red-asterix{
+    color: red;
+}
+
+label{
+    display: inline-block;
+    clear: left;
+    width: 250px;
+    text-align: left;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: bold;
+}
+input ,select, textarea{
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  padding: 5px;
+  width: 200px;
+}
+
+.small {
+    width: 50px;
+}
+
+.container{
+    display: flex;
+}
+
+.fchild{
+    padding-right: 160px;
+}
+
+.child{
+    flex: 1;
+}
+
+.margin-40{
+    margin-top: 40px;
+}
+
+.fancy-btn{
+    margin-top: 0px;
+    background-color: #61aa81;
+    border-color: #61aa81;
+    margin-left: 10px;
+    /* float: right; */
+    color: white;
+}
+
+.center-btn{
+    margin: auto;
+    width: 39%;
+}
+
+.larger-width{
+    width: 214px;
+}
+
+.margin-90{
+    margin-left: 90px;
+}
+

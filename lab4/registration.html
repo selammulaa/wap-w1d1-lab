@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <Title>Lab 4 : Registration HTML Page</Title>
+        <link href= "style.css" rel="stylesheet"/>
+    </head>
+
+    <body>
+        <div class="center">
+            <p class="main-title"><span class="title">Workshop Registration</span>  <span class="margin-90">More Actions &#9660;</span></p>
+            <p class="underline">Register now while seats are available</p>
+
+            <form >
+                <div class="container">
+                    <div class="child fchild">
+                        <label>First Name <span class="red-asterix">*</span></label>
+                        <input type="text" name="first-name"/> <br>
+    
+                        <label>Last Name <span class="red-asterix">*</span></label>
+                        <input type="text" name="last-name"/> <br>
+    
+                        <label>Company/Institution <span class="red-asterix">*</span></label>
+                        <input type="text" name="company"/> <br>
+    
+                        <label>Address <span class="red-asterix">*</span></label>
+                        <textarea rows="8" >
+    
+                        </textarea> <br>
+    
+                        <label>City </label>
+                        <input type="text" name="city"/> <br>
+    
+                        <label>State/Province/Region</label>
+                        <select class="larger-width">
+                            <option>-Select-</option>
+                            <option>Iowa</option>
+                            <option>California</option>
+                        </select>
+    
+                        <label>County</label>
+                        <select class="larger-width">
+                            <option>-Select-</option>
+                            <option>Jefferson</option>
+                            <option>Fairfield</option>
+                        </select>
+    
+    
+                        <label>Email <span class="red-asterix">*</span></label>
+                        <input type="text" name="email"/> <br>
+    
+                        <label>Phone number<span class="red-asterix">*</span></label>
+                        <input type="text" name="phone-number"/> <br>
+    
+                    </div>
+    
+                    <div class="child">
+                        <p class="underline">Lunch</p>
+                        <label>Meal Preference</label>
+                        <select class="larger-width">
+                            <option>Vegiterian</option>
+                            <option>Vegan</option>
+                            <option>Standard</option>
+                            <option>Lacto-vegetarian</option>
+                        </select>
+
+                        <p class="underline margin-40">Payment Details</p>
+
+                        <label>Payment Mode</label>
+                        <input type="checkbox" id="payment1" class="small" /> Cash </br>
+                        <label></label>
+                        <input type="checkbox" id="payment2" class="small"  /> Cheque</br>
+                        <label></label>
+                        <input type="checkbox" id="payment3" class="small" /> Demand Draft </br>
+    
+    
+                        <div class="margin-40">
+                            <label>DD/Cheque No. </label>
+                            <input type="text" name="check"/> <br>
+    
+                            <label>Drawn on(Bank Name) </label>
+                            <input type="text" name="bank"/> <br>
+    
+                            <label>Payable at </label>
+                            <input type="text" name="payableAt"/> <br>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="footer">
+                    <div class="center-btn">
+                        <input type="submit" value="Submit" class="fancy-btn">
+                        <input type="reset" value="Reset" class="fancy-btn">
+                    </div>
+                   
+                </div>
+            </form>
+        </div>
+        
+    </body>
+</html>
