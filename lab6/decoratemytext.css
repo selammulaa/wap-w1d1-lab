@@ -1,0 +1,22 @@
+
+body{
+    margin: auto;
+    width: 33%;
+}
+
+fieldset{
+    display: block;
+}
+
+legend{
+    font-weight: bold;
+    font-size: 20px;;
+}
+
+input{
+    margin-top: 20px;
+}
+/* 
+textarea{
+    font-size: 12pt;
+} */
